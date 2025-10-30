@@ -6,7 +6,7 @@ Algoritmo minicalculadora
   leer a
   Escribir "Introducir numero b"
   leer b
-  Escribir "Introducir 1(para suma), 2(para resta), 3(para multiplicar)"
+  Escribir "Introducir 1(para suma), 2(para resta), 3(para multiplicar), 4 (para dividir)"
   leer opcion
   
   si (opcion =1) entonces
@@ -22,6 +22,10 @@ Algoritmo minicalculadora
  si (opcion = 3) entonces
 	num_res = a * b
 	escribir "La multiplicacion de ", a, " y de ", b, " es de ", num_res
+ finsi
+ si (opcion = 4) entonces
+	num_res = a / b
+	escribir "La division de ", a, " y de ", b, " es de ", num_res
  finsi
 FinAlgoritmo
   
